@@ -23,21 +23,18 @@
     
     <nav class="container">
 		<ul id="menu">
-			<li>Home</li>
-			<li>Banda</li>
-			<li>Contato</li>
-			<li>Fotos</li>
-			<li>Músicas</li>
+			<li>@Html.ActionLink("Home", "Home", "Home")</li>
+			<li>@Html.ActionLink("Banda", "Band", "Home")</li>
+			<li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+			<li>@Html.ActionLink("Fotos", "Photos", "Home")</li>
+			<li>@Html.ActionLink("Músicas", "Musics", "Home")</li>
 		</ul>
 	</nav>
 
     <div class="container">
-        <div class="row">
-            @RenderSection("featured", false)
-            <section class="span12">
-                @RenderBody()
-            </section>
-        </div>
+            
+        @RenderBody()
+            
     </div>
     
     <footer class="container">

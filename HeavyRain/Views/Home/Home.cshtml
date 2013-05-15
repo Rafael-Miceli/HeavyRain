@@ -1,6 +1,20 @@
-﻿@{
-    ViewBag.Title = "Home";
+﻿@using System.Web.Optimization
+@{
+    ViewBag.Title = "Home teste";
     Layout = "~/Views/Shared/_Master.cshtml";
 }
 
-<h2>Home</h2>
+
+
+<div class="row">
+	<section class="span8">
+        <h2>Home</h2>		        
+	</section>
+	<section class="span4">
+		This is section 2
+	</section>
+</div>
+
+
+@Styles.Render("~/Content/bootstrap")
+
