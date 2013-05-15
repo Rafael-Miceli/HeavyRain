@@ -37,10 +37,17 @@
 			border-style: solid;			
 		}
 		*/
+		
 		.span4{
 			box-sizing: border-box;
-			border-style: solid;	
 		}
+		
+		.container div section.span4{
+			box-sizing: border-box;
+			border-style: solid;
+			border-radius: 5px;			
+		}	
+		
 		
     </style>
 
@@ -70,8 +77,16 @@
 				Assim mesmo, o entendimento das metas propostas talvez venha a ressaltar a relatividade do sistema de formação de quadros que corresponde às necessidades.
 			</section>
 			<section class="span4">
-				This is section 2
+				This is section 2				
+				<div class="row">
+					<div class="span4" style="box-sizing: border-box;">
+						This is where will be the socials
+					</div>
+				</div>
 			</section>
+			<!--<div class="span4 offset8">
+					This is where will be the socials
+			</div>-->
 		</div>
     </div>
 	
