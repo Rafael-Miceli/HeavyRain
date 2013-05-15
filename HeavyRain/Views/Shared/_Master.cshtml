@@ -13,18 +13,36 @@
 
 </head>
 <body>
-    <header>
-        
+    <header class="container">
+		<div class="row">
+			<div class="span12">
+				Heavy Rain
+			</div>
+		</div>
     </header>
     
-    <div class="row">
-        <section>
-        
-        </section>
+    <nav class="container">
+		<ul id="menu">
+			<li>Home</li>
+			<li>Banda</li>
+			<li>Contato</li>
+			<li>Fotos</li>
+			<li>Músicas</li>
+		</ul>
+	</nav>
 
+    <div class="container">
+        <div class="row">
+            @RenderSection("featured", false)
+            <section class="span12">
+                @RenderBody()
+            </section>
+        </div>
     </div>
     
-    <footer></footer>
+    <footer class="container">
+        <p>&copy; @DateTime.Now.Year - Heavy Rain</p>
+    </footer>
 </body>
 </html>
     

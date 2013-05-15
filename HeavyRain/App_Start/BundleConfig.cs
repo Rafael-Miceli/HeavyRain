@@ -1,5 +1,4 @@
-﻿using System;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace HeavyRain
 {
@@ -9,7 +8,8 @@ namespace HeavyRain
         {
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
                 "~/bootstrap/css/bootstrap-responsive.min.css",
-                "~/bootstrap/css/bootstrap.min.css"));
+                "~/bootstrap/css/bootstrap.min.css", 
+                "~/Content/Site.css"));
         }
     }
 }
