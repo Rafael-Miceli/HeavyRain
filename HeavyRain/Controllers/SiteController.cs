@@ -2,7 +2,7 @@
 
 namespace HeavyRain.Controllers
 {
-    public class HomeController : Controller
+    public class SiteController : Controller
     {
         //
         // GET: /Home/

@@ -121,7 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SiteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -164,19 +164,19 @@
     <Content Include="Views\Shared\_Master.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Home.cshtml" />
+    <Content Include="Views\Site\Home.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Band.cshtml" />
+    <Content Include="Views\Site\Band.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Site\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Photos.cshtml" />
+    <Content Include="Views\Site\Photos.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Musics.cshtml" />
+    <Content Include="Views\Site\Musics.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

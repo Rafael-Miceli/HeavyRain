@@ -16,7 +16,7 @@ namespace HeavyRain
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Home", id = UrlParameter.Optional }
+                defaults: new { controller = "Site", action = "Home", id = UrlParameter.Optional }
             );
         }
     }

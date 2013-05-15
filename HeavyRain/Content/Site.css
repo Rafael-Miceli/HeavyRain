@@ -1,4 +1,9 @@
-﻿header {
+﻿body
+{
+    background-color: #E5E5E5;
+}    
+
+header {
     text-align: center;
     margin-bottom: 15px;
 }
