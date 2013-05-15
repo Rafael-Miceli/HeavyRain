@@ -12,6 +12,14 @@ footer {
     text-align: center;
 }
 
+
+nav
+{
+    border-bottom-width: 1px;
+    border-bottom-color: #494949;
+    border-bottom-style: solid;
+}
+
 ul#menu {
     font-size: 1.2em;
     font-weight: 600;
@@ -36,3 +44,18 @@ ul#menu li a:hover {
     color: #333;
     text-decoration: none;
 }
+
+
+
+/*Home
+
+.span3
+{
+    text-align: center;
+    border-left-width: 1px;
+    border-left-color: #4343FE;
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-right-color: #4343FE;
+    border-right-style: solid;
+}*/
