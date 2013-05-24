@@ -3,6 +3,10 @@
     background-color: #E5E5E5;
 }    
 
+#Container {
+    margin-top: 4%;
+}
+
 header {
     text-align: center;
     margin-bottom: 15px;
@@ -12,16 +16,21 @@ footer {
     text-align: center;
 }
 
-
-nav
-{
+nav{
     border-bottom-width: 1px;
     border-bottom-color: #494949;
     border-bottom-style: solid;
 }
 
+.menu {
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul#menu {
-    font-size: 1.2em;
+    font-size: 1.7em;
     font-weight: 600;
     margin: 0 0 5px;
     padding: 0;
@@ -31,7 +40,8 @@ ul#menu {
 ul#menu li {
     display: inline;
     list-style: none;
-    padding-left: 15px;
+    padding-left: 1.7%;
+    padding-right: 1.7%;
 }
 
 ul#menu li a {
@@ -45,17 +55,15 @@ ul#menu li a:hover {
     text-decoration: none;
 }
 
+/*Site Structure*/
 
+.ColumnHeader {
+    background: #111111;
+    color: #DFDFDF;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 
-/*Home
-
-.span3
-{
-    text-align: center;
-    border-left-width: 1px;
-    border-left-color: #4343FE;
-    border-left-style: solid;
-    border-right-width: 1px;
-    border-right-color: #4343FE;
-    border-right-style: solid;
-}*/
+.ColumnHeader h2 {
+    margin-left: 4%;
+}

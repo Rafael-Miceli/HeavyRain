@@ -10,37 +10,47 @@
     <meta charset="utf-8"/>
     
     @Styles.Render("~/Content/bootstrap")
-
+        
 </head>
 <body>
-    <header class="container">
-		<div class="row">
-			<div class="span12">
-				Heavy Rain
-			</div>
-		</div>
-    </header>
-    
-    <nav class="container">
-		<ul id="menu">
-			<li>@Html.ActionLink("Home", "Home", "Site")</li>
-			<li>@Html.ActionLink("Banda", "Band", "Site")</li>
-			<li>@Html.ActionLink("Contato", "Contact", "Site")</li>
-			<li>@Html.ActionLink("Fotos", "Photos", "Site")</li>
-		    <li>@Html.ActionLink("Músicas", "Musics", "Site")</li>
-            <li>@Html.ActionLink("Shows", "Musics", "Site")</li>
-		</ul>
-	</nav>
+    <div id="Container" class="container">
+            
+        <header class="container">
+            <div id="MenuRow" class="row">
+                <div class="span12">
+                    <nav class="container">
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Home", "Home", "Site")</li>
+			                <li>@Html.ActionLink("Banda", "Band", "Site")</li>
+			                <li>@Html.ActionLink("Contato", "Contact", "Site")</li>
+			                <li>@Html.ActionLink("Fotos", "Photos", "Site")</li>
+		                    <li>@Html.ActionLink("Músicas", "Musics", "Site")</li>
+                            <li>@Html.ActionLink("Shows", "Musics", "Site")</li>
+                        </ul>
+                    </nav>
+                        
+                </div>
+            </div>
 
-    <div class="container">
+            <div id="BannerRow" class="row">
+                <div class="span12">
+                    <div style="max-width: 900px; width:90%; height: 250px; border:black solid 1px; margin-left: auto; margin-right: auto"></div>
+                </div>
+            </div>
+
+        </header>
+
+        <div id="Main" class="container">
             
-        @RenderBody()
+            @RenderBody()
             
-    </div>
+        </div>
     
-    <footer class="container">
-        <p>&copy; @DateTime.Now.Year - Heavy Rain</p>
-    </footer>
+        <footer class="container">
+            <p>&copy; @DateTime.Now.Year - Heavy Rain</p>
+        </footer>
+        
+    </div>
 </body>
 </html>
     
