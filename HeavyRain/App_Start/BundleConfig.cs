@@ -9,6 +9,9 @@ namespace HeavyRain
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
                 "~/bootstrap/css/bootstrap.css",
                 "~/Content/Site.css"));
+
+            bundles.Add(new ScriptBundle("~/javascript/bootstrap").Include(
+                "~/bootstrap/js/bootstrap.js"));
         }
     }
 }
