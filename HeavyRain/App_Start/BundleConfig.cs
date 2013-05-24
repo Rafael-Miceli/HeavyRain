@@ -7,7 +7,6 @@ namespace HeavyRain
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
-                "~/bootstrap/css/bootstrap-responsive.css",
                 "~/bootstrap/css/bootstrap.css",
                 "~/Content/Site.css"));
         }

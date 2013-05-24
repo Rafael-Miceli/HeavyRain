@@ -1,7 +1,8 @@
-﻿body
-{
+﻿body {
     background-color: #E5E5E5;
-    padding: 10px;
+    padding: 10px; 
+    font-family: 'Franklin Gothic Medium'; 
+    /*font-family: 'aparejita';*/
 }    
 
 #Container {
@@ -62,6 +63,7 @@ ul#menu li a:hover {
     color: #DFDFDF;
 }
 
-.ColumnHeader h2 {
-    margin-left: 4%;
+.ColumnHeader h2, h3, h4 {
+    margin-left: 15px;
+    /*font-weight: normal*/
 }
