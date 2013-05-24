@@ -1,6 +1,7 @@
 ﻿body
 {
     background-color: #E5E5E5;
+    padding: 10px;
 }    
 
 #Container {
@@ -13,13 +14,8 @@ header {
 }
 
 footer {
-    text-align: center;
-}
-
-nav{
-    border-bottom-width: 1px;
-    border-bottom-color: #494949;
-    border-bottom-style: solid;
+    margin-top: 2%;
+    text-align: right;
 }
 
 .menu {
@@ -57,11 +53,13 @@ ul#menu li a:hover {
 
 /*Site Structure*/
 
+.row{
+    margin-bottom: 20px;
+}
+
 .ColumnHeader {
     background: #111111;
     color: #DFDFDF;
-    box-sizing: border-box;
-    overflow: hidden;
 }
 
 .ColumnHeader h2 {
