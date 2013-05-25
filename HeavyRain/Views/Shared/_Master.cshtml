@@ -1,11 +1,12 @@
 ﻿@using System.Web.Optimization
+@using HeavyRain.Helpers
 <!DOCTYPE html>
 <html lang="pt">
 <head>
     <title>@ViewBag.Title - Heavy Rain</title>
     
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <script src="~/Content/jquery-1.7.1.min.js"></script>
     
     <meta charset="utf-8"/>
     
@@ -20,14 +21,14 @@
             <div class="span12">
                 <div id="MenuRow" class="row">
                     <div class="span12">
-                        <nav>
+                        <nav class="">
                             <ul id="menu">
-                                <li>@Html.ActionLink("Home", "Home", "Site")</li>
-                                <li>@Html.ActionLink("Banda", "Band", "Site")</li>
-                                <li>@Html.ActionLink("Contato", "Contact", "Site")</li>
-                                <li>@Html.ActionLink("Fotos", "Photos", "Site")</li>
-                                <li>@Html.ActionLink("Músicas", "Musics", "Site")</li>
-                                <li>@Html.ActionLink("Shows", "Musics", "Site")</li>
+                                <li>@Html.MenuLink("Home", "Home", "Site")</li>
+                                <li>@Html.MenuLink("Banda", "Band", "Site")</li>
+                                <li>@Html.MenuLink("Contato", "Contact", "Site")</li>
+                                <li>@Html.MenuLink("Fotos", "Photos", "Site")</li>
+                                <li>@Html.MenuLink("Músicas", "Musics", "Site")</li>
+                                <li>@Html.MenuLink("Shows", "Musics", "Site")</li>
                             </ul>
                         </nav>
                         
@@ -37,7 +38,7 @@
                 <div id="BannerRow" class="row">
                     <div class="span12">
                         <div style="max-width: inherit; height: 300px; border:black solid 1px; margin-left:auto; margin-right: auto">
-                            @*<img src="../../Content/LogoHR.jpg" alt="Logo"/>*@'
+                            @*<img src="../../Content/LogoHR.jpg" alt="Logo"/>*@
                         </div>
                     </div>
                 </div>
