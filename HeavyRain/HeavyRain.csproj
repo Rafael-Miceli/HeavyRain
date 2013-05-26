@@ -140,6 +140,8 @@
     <Content Include="bootstrap\img\glyphicons-halflings.png" />
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\Images\977709_170761349751982_1179486341_o.jpg" />
+    <Content Include="Content\Images\GirlRain.png" />
     <Content Include="Content\jquery-1.7.1.min.js" />
     <Content Include="Content\Images\LogoHR.jpg" />
     <Content Include="Content\Site.css" />
