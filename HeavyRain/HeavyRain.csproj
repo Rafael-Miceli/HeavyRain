@@ -140,10 +140,19 @@
     <Content Include="bootstrap\img\glyphicons-halflings.png" />
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\Carousel\css\Carousel.css" />
+    <Content Include="Content\Carousel\javascript\Carousel.js" />
+    <Content Include="Content\Carousel\javascript\jquery.ba-throttle-debounce.min.js" />
+    <Content Include="Content\Carousel\javascript\jquery.carouFredSel-6.2.1-packed.js" />
+    <Content Include="Content\Carousel\javascript\jquery.mousewheel.min.js" />
+    <Content Include="Content\Carousel\javascript\jquery.touchSwipe.min.js" />
+    <Content Include="Content\Carousel\javascript\jquery.transit.min.js" />
+    <Content Include="Content\javascript\jquery-1.8.2.min.js" />
     <Content Include="Content\Images\977709_170761349751982_1179486341_o.jpg" />
     <Content Include="Content\Images\GirlRain.png" />
-    <Content Include="Content\jquery-1.7.1.min.js" />
+    <Content Include="Content\javascript\jquery-1.7.1.min.js" />
     <Content Include="Content\Images\LogoHR.jpg" />
+    <Content Include="Content\Musics\Kirisute Gomen.mp3" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -157,6 +166,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Carousel\images\" />
+    <Folder Include="Content\css\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
