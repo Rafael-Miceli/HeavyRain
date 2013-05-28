@@ -75,6 +75,10 @@ ul#menu li a.current {
     margin-bottom: 20px;
 }
 
+#Gallery.row {
+    margin-bottom: 0px;
+}
+
 .ColumnHeader {
     background: #111111;
     color: #DFDFDF;
