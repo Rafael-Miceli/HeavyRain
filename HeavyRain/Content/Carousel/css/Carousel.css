@@ -1,7 +1,5 @@
 ﻿.list_carousel {
     background-color: #ccc;
-    margin: 0 0 30px 60px;
-    width: 360px;
 }
 .list_carousel ul {
 	margin: 0;
@@ -15,8 +13,8 @@
 	text-align: center;
 	background-color: #eee;
 	border: 5px solid #999;
-	width: 50px;
-	height: 50px;
+	width: 90px;
+	height: 200px;
 	padding: 0;
 	margin: 6px;
 	display: block;
@@ -26,17 +24,23 @@
 	width: auto;
 	margin-left: 0;
 }
-.clearfix {
-	float: none;
-	clear: both;
+
+.caroufredsel_wrapper {
+    float: left;
+    height: 200px;
 }
+
 .prev {
 	float: left;
-	margin-left: 10px;
+    width: 20px;
+    height: 120px;
+    padding-top: 100px;
 }
 .next {
-	float: right;
-	margin-right: 10px;
+	float: left;
+    width: 20px;
+    height: 120px;
+    padding-top: 100px;
 }
 .pager {
 	float: left;
@@ -53,5 +57,5 @@
 .timer {
 	background-color: #999;
 	height: 6px;
-	width: 0px;
+	width: 0;
 }
