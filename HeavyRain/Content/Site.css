@@ -31,6 +31,20 @@ footer.row {
     text-align: right;
 }
 
+footer hr {
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-bottom-color: #1B1B1B;
+    border-top-color: #1B1B1B;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer p {
+    margin-right: 2%;
+}
+
 .menu {
     width: 90%;
     max-width: 800px;
@@ -84,7 +98,7 @@ ul#menu li a.current {
     color: #DFDFDF;
 }
 
-.ColumnHeader h2, h3, h4, p {
+.ColumnHeader h2, h3, h4, .NoticeBox p, .showBox p {
     margin-left: 15px;
     max-width: 600px;
     /*font-weight: normal*/
@@ -103,7 +117,7 @@ h3[name="title"] {
     color: #787878;
 }
 
-hr {
+#News hr {
     border-bottom-width: 2px;
     border-top-width: 2px;
     border-bottom-color: #1B1B1B;
