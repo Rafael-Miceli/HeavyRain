@@ -1,5 +1,7 @@
 ﻿.list_carousel {
-    background-color: #ccc;
+    float: left;
+    width: 600px;
+    margin-left: 15px;
 }
 .list_carousel ul {
 	margin: 0;
@@ -13,7 +15,7 @@
 	text-align: center;
 	background-color: #eee;
 	border: 5px solid #999;
-	width: 90px;
+	width: 115px;
 	height: 180px;
 	padding: 0;
 	margin: 6px;
@@ -28,20 +30,31 @@
 .caroufredsel_wrapper {
     float: left;
     height: 200px;
+    width: 550px;
 }
 
-.prev {
+a.prev {
+    float: left;
+    width: 20px;
+    height: 105px;
+    padding-top: 100px;
+    color: #C8C8C8;
+    text-align: center;
+    background-color: #292929;
+    font-weight: bold;
+}
+
+a.next {
 	float: left;
     width: 20px;
-    height: 120px;
+    height: 105px;
     padding-top: 100px;
+    color: #C8C8C8;
+    text-align: center;
+    background-color: #292929;
+    font-weight: bold;
 }
-.next {
-	float: left;
-    width: 20px;
-    height: 120px;
-    padding-top: 100px;
-}
+
 .pager {
 	float: left;
 	width: 300px;
