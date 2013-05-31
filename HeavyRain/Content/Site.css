@@ -108,6 +108,11 @@ ul#menu li a.current {
 
 /*Home*/
 
+.fb-like-box {
+    margin-top: 15px;
+    background-color: #303030;
+}
+
 h3[name="date"] {
     float: left;
     margin-right: 10px;
