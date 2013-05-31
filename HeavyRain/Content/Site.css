@@ -107,6 +107,12 @@ ul#menu li a.current {
 
 
 /*Home*/
+.twitter-timeline {
+    margin-top: 15px;
+    height: 200px;
+    max-height: 400px;
+    width: 295px;
+}
 
 .fb-like-box {
     margin-top: 15px;
