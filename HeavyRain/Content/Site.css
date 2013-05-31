@@ -43,6 +43,7 @@ footer hr {
 
 footer p, .socialpng {
     margin-right: 2%;
+    max-width: none;
 }
 
 .menu {
@@ -98,7 +99,7 @@ ul#menu li a.current {
     color: #DFDFDF;
 }
 
-.ColumnHeader h2, h3, h4, .NoticeBox p, .showBox p {
+.ColumnHeader h2, h3, h4, p{
     margin-left: 15px;
     max-width: 600px;
     /*font-weight: normal*/
