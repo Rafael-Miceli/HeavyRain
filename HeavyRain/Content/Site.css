@@ -99,7 +99,7 @@ ul#menu li a.current {
     color: #DFDFDF;
 }
 
-.ColumnHeader h2, h3, h4, p{
+.ColumnHeader h2, h3, h4, h5, p{
     margin-left: 15px;
     max-width: 600px;
     /*font-weight: normal*/
@@ -179,3 +179,24 @@ h3[name="title"] {
     text-align: center;
     color: #909090;
 }
+
+
+
+
+/* Band */
+
+.bandhistory {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p[name="bandhistory"] {
+    text-align: center;
+    max-width: none;
+    margin-right: 15px;
+}
+
+.BandMember {
+    text-align: center;
+}
+
