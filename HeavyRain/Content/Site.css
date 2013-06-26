@@ -110,7 +110,7 @@ ul#menu li a.current {
 /*Home*/
 .twitter-timeline {
     margin-top: 15px;
-    height: 200px;
+    height: 250px;
     max-height: 400px;
     width: 295px;
 }
@@ -158,6 +158,7 @@ h3[name="title"] {
     padding-top: 15px;
     height: 60px;
     width: 60px;
+    cursor: default;
 }
 
 .ShowPlace {
@@ -176,6 +177,7 @@ h3[name="title"] {
 }
 
 .Showinfo a {
+    cursor: pointer;
     text-align: center;
     color: #909090;
 }
@@ -200,3 +202,72 @@ p[name="bandhistory"] {
     text-align: center;
 }
 
+.MemberPic {
+    text-align: center;
+    width: 180px; 
+    height: 230px; 
+    border: solid 1px black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#PicRafa {
+    
+}
+
+#PicPris {
+    
+}
+
+#PicTha {
+    
+}
+#PicDenis {
+    
+}
+
+
+/* Shows */
+
+section#ShowsBody .showBox {
+    /*float: left;*/
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 330px;
+}
+
+section#ShowsBody .showBox .showDate {
+    float: left;
+    background-color: #292929;
+    color: #909090;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 30px;
+    height: 90px;
+    width: 100px;
+    line-height: 30px;
+    cursor: default;
+}
+
+section#ShowsBody .showBox .ShowPlace {
+    float: left;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+section#ShowsBody .showBox .Showinfo {
+    float: left;
+    background-color: #292929;
+    color: #909090;
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.Showinfo a {
+    cursor: pointer;
+    text-align: center;
+    color: #909090;
+}

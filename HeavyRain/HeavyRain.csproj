@@ -176,9 +176,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bootstrap\img\Thumbs.db" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Shared\_Master.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -195,6 +192,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Site\Musics.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\HeavyRain.pubxml" />
+    <Content Include="Views\Site\Shows.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

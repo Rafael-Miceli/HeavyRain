@@ -31,5 +31,10 @@ namespace HeavyRain.Controllers
         {
             return View();
         }
+
+        public ActionResult Shows()
+        {
+            return View();
+        }
     }
 }
