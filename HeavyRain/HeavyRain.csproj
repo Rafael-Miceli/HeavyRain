@@ -196,6 +196,10 @@
   <ItemGroup>
     <None Include="Properties\PublishProfiles\HeavyRain.pubxml" />
     <Content Include="Views\Site\Shows.cshtml" />
+    <Content Include="Views\Site\Rafael.cshtml" />
+    <Content Include="Views\Site\Priscilla.cshtml" />
+    <Content Include="Views\Site\Thaise.cshtml" />
+    <Content Include="Views\Site\Dennis.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -209,10 +209,15 @@ p[name="bandhistory"] {
     border: solid 1px black;
     margin-right: auto;
     margin-left: auto;
+    cursor: pointer;
 }
 
-#PicRafa {
-    
+.Pic {
+    width: 280px;
+    height: 330px;
+    border: solid 1px black;
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 #PicPris {

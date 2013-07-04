@@ -36,5 +36,25 @@ namespace HeavyRain.Controllers
         {
             return View();
         }
+
+        public ActionResult Priscilla()
+        {
+            return View();
+        }
+
+        public ActionResult Rafael()
+        {
+            return View();
+        }
+
+        public ActionResult Thaise()
+        {
+            return View();
+        }
+
+        public ActionResult Dennis()
+        {
+            return View();
+        }
     }
 }
